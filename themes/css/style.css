@@ -1,0 +1,68 @@
+/*
+HEADER
+*/
+.main_header{font-size: 1em; border-bottom: 2px solid #F2723E;}
+.main_header_fixed{position: fixed; top: 0; left: 0; background-color: rgba(255,255,255,0.7); border-bottom: 2px solid #F2723E; z-index: 99;}
+.main_header .content{padding: 30px 0;}
+.main_logo{float: left; width: 242px; height: 60px;}
+.main_menu{float: right; margin-top: 25px;}
+.main_menu li{display: inline-block;}
+.main_menu a{padding: 10px 15px; color: #000; text-transform: uppercase; font-weight: 600;}
+.main_menu a:hover{color: #fff; background: #F2723E;}
+
+/*
+Slide Show
+*/
+.main_slidesow{height: 450px; background-color: #ccc; background-image:url(../img/header.jpg); background-size: cover; background-attachment: fixed; background-position: center top; color: #fff;}
+
+
+/*
+Empresa
+*/
+.main_empresa h1{text-transform: uppercase; color: #888;}
+.main_empresa .tagline{color: #ccc; padding-bottom: 10px; border-bottom: 1px solid #000;}
+.main_empresa article{padding: 20px 30px; margin-bottom: 30px; min-height: 200px; background: #ccc; color: #888; -webkit-box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.3); -moz-box-shadow:0px 3px 3px 0px rgba(0,0,0,0.3); box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.3);}
+.main_empresa .main_bloc{padding-top: 10px;}
+
+/*Nossos Serviços*/
+.main_serv_item{padding: 15px 30px; margin-bottom: 30px; min-height: 350px;}
+.main_serv_item img{padding: 25px; width: 80%; margin: 0 10%; margin-bottom: 15px;}
+.main_serv_item h1{font-size: 1.3em; margin-top: 10px; margin-bottom: 15px;}
+.main_serv_item .main_serv_text{font-size: 0.9em;}
+
+/*Cartão Fidelidade*/
+.main_form span{font-size: 1em; display: block; text-transform: 600; margin-bottom: 10px; float: left;}
+.main_form .medium{float: left; width: 100%;}
+
+/*Agenda Online*/
+.main_agenda{background-color: #e16f4d; height: 300px; margin-top: 30px; margin-bottom: 30px;}
+.main_descricao{margin: 80px 20px 30px 40px;}
+
+/*Fale Conosco*/
+.main_info{padding-top: 10px;}
+.main_info span{text-transform: uppercase; font-weight: normal;}
+.main_info input, .main_info textarea{background: #fff; font-weight: normal;}
+
+/*Destaque*/
+.main_destaque{background-color: #ccc; background-image: url(../img/destaque02.jpg); background-size: cover; background-attachment: fixed; color: #F2723E;}
+.link_facebook{float: left; padding: 60px 20px 20px 20px; background: rgba(0,0,0,0.3); background-position: top 20px center; background-image: url(../img/social_facebook.png); background-repeat: no-repeat;}
+.link_facebook:hover{background: #3B5998; color: #fff; background-position: top 20px center; background-image: url(../img/social_facebook.png); background-repeat: no-repeat;}
+.link_goole{float: left; padding: 60px 20px 20px 20px; background: rgba(0,0,0,0.3); background-position: top 20px center; background-image: url(../img/social_google.png); background-repeat: no-repeat;}
+.link_goole:hover{background: #D73D32; color: #fff; background-position: top 20px center; background-image: url(../img/social_google.png); background-repeat: no-repeat;}
+.link_twitter{float: left; padding: 60px 20px 20px 20px; background: rgba(0,0,0,0.3); background-position: top 20px center; background-image: url(../img/social_twitter.png); background-repeat: no-repeat;}
+.link_twitter:hover{background: #54A4D6; color: #fff; background-position: top 20px center; background-image: url(../img/social_twitter.png); background-repeat: no-repeat;}
+
+
+/*Rodapé*/
+.main_footer{background: #F2723E; color: #fff;}
+.main_footer img{width: 90px; height: 50px; float: left;}
+.main_footer p{float: left; margin-left: 5px; font-weight: normal; font-size: 1.3em; padding-top: 15px;}
+
+/*Botão de Rolagem da Page*/
+.backtop{position: fixed; display: none; cursor: pointer; bottom: 15px; right: 25px; text-transform: uppercase; font-size: 0.7em; background-color: rgba(0,0,0,0.3); color: #fff; padding: 10px;}
+
+/*Formulario de Contato*/
+.title{float: left; margin-bottom: 15px; text-align: center; font-size: 3em; font-weight: 300; width: 100%;}
+.main_content{width: 92%; margin: 0 4%; padding: 20px 0;}
+.formulario{float: left; width: 100%; margin-top: 10px;}
+.form_action input{width: auto; float: right; margin-right: 5px; margin-top: 10px;}
